@@ -1,5 +1,9 @@
 local plugins = {
   {
+    "christoomey/vim-tmux-navigator",
+    lazy = false
+  },
+  {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
@@ -7,6 +11,7 @@ local plugins = {
         "typescript-language-server",
         "tflint",
         "mypy",
+        "lua-language-server",
         "flake8",
         "black"
       }

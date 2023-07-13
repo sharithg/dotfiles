@@ -10,3 +10,10 @@ lspconfig.pyright.setup({
   capabilities = capabilities,
   filetypes = {"python"}
 })
+
+lspconfig.tsserver.setup({
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = {"typescript"}
+})
+
